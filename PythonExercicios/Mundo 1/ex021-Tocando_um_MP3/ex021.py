@@ -3,7 +3,10 @@
 import pygame
 
 pygame.init()
-pygame.mixer.music.load('ex021.mp3')  # subistituir o exo21.mp3 pelo nome do arquivo .mp3 desejavel. o mesmo tem que estar na mesma pasta.
+
+# subistituir o exo21.mp3 pelo nome do arquivo .mp3 desejavel. o mesmo tem que estar na mesma pasta.
+pygame.mixer.music.load('/ex021-Tocando_um_MP3/ex021.mp3')  
+
 pygame.mixer.music.play()
 pygame.event.wait()
 
