@@ -1,3 +1,5 @@
+'''Exercicio 9: Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.'''
+
 num = int(input('Digite um número de 0 à 10 para ver sua tabuada: '))
 print('-' * 12)
 print('{} x {:2} = {}'.format(num, 1, num*1))
