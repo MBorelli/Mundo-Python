@@ -8,9 +8,9 @@ Olá, Mundo!
 
 def escreva(msg):
     tam = len(msg) + 4
-    print('-' * tam) #subistituir - por acento tio.
+    print('~' * tam) 
     print(f'  {msg}')
-    print('-' * tam) #subistituir - por acento tio.
+    print('~' * tam) 
 
 
 #Programa principal
